@@ -1,0 +1,69 @@
+.tuerca {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../icon/tuerca.svg');
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tuercap h2 {
+    margin-top: 5px;
+}
+.item {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 25px;
+  overflow: hidden;
+}
+
+.item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.item:hover img {
+  transform: scale(1.2);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.item:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  text-align: center;
+  color: white;
+}
+
+.item:hover .text {
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 0.5s ease;
+}
+
+.ejemplo {
+  font-size: 16px;
+  margin-bottom: 0;
+}

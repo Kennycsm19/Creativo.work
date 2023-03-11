@@ -1,0 +1,75 @@
+
+
+
+.testimonios-slider {
+  width: 100%;
+  min-width: 320px;
+  background-color: tomato;
+  /* Ancho del carrusel */
+}
+
+.slick-dots li button:before {
+  color: #fff; /* Color de los puntos de navegación */
+}
+
+.testgroup {
+  .like {
+      width: 70px;
+      height: 70px;
+      margin: 0 auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url('../icon/like.svg');
+  }
+  .likep h2 {
+      padding: 0 12px;
+  }
+  .testicontainer img {
+      width: 270px;
+      height: 190px;
+  }
+  .testicontainer figure {
+    display: flex;
+    justify-content: center;
+  }
+  h4 {
+      font-size: 2.7rem;
+      font-weight: 700;
+      color: var(--botonrojo);
+      margin: 15px 0;
+      margin-left: 32px;
+  }
+  .testgroup {width: 100%;max-width: 315px;margin: 0 auto;margin-bottom: 50px;}
+
+  .testgroup p {
+      margin-left: 32px;
+      width: 245px;
+      font-size: 1.2rem;
+      color: var(--letrazulgris);
+      font-weight: 500;
+      margin-bottom: 29px;
+  }
+
+  .testgroup a {
+      background-color: var(--azulmarino);
+      color: white;
+      font-size: 1.5rem;
+      padding: 10px 17px;
+      border-radius: 5px;
+      margin-left: 32px;
+      font-weight: 500;
+      text-decoration: none;
+  }
+}
+
+ul.slick-dots {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    max-width: 150px;
+    margin: 0 auto;
+}
+.slick-prev, .slick-next {
+  display: none !important;
+}
