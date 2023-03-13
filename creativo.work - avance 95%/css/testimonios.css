@@ -1,0 +1,135 @@
+.testione.slick-slide.slick-current.slick-active {
+    height: 430px;
+}
+.testithree.slick-slide.slick-current.slick-active {
+    height: 430px;
+}
+.testitwo.slick-slide.slick-current.slick-active {
+    height: 430px;
+}
+
+.like {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../icon/like.svg');
+}
+.testimonios-slider {
+  width: 100%;
+  min-width: 320px;
+  /* Ancho del carrusel */
+}
+.testgroup img {
+  width: 290px;
+  height: 200px;
+  margin: 0 auto;
+}
+h4 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--botonrojo);
+  text-align: center;
+}
+
+.testimonios-slider button {
+  background-color: var(--botonrojo);
+      border: 0;
+      padding: 9px;
+      border-radius: 50%;
+      color: white;
+      font-weight: 700;
+      height: 30px;
+}
+
+.testgroup {
+
+  .likep h2 {
+      padding: 0 12px;
+  }
+  .testicontainer img {
+      width: 270px;
+      height: 190px;
+  }
+  .testicontainer figure {
+    display: flex;
+    justify-content: center;
+  }
+  h4 {
+      font-size: 2.7rem;
+      font-weight: 700;
+      color: var(--botonrojo);
+      margin: 15px 0;
+      margin-left: 32px;
+  }
+  .testgroup {width: 100%;max-width: 315px;margin: 0 auto;margin-bottom: 50px;}
+
+  .testgroup p {
+      margin-left: 32px;
+      width: 245px;
+      font-size: 1.2rem;
+      color: var(--letrazulgris);
+      font-weight: 500;
+      margin-bottom: 29px;
+  }
+
+  .testgroup a {
+      background-color: var(--azulmarino);
+      color: white;
+      font-size: 1.5rem;
+      padding: 10px 17px;
+      border-radius: 5px;
+      margin-left: 32px;
+      font-weight: 500;
+      text-decoration: none;
+  }
+}
+
+ul.slick-dots {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    max-width: 150px;
+    margin: 0 auto;
+}
+.slick-prev, .slick-next {
+  display: none !important;
+}
+.testimonios-slider p {
+  color: gray;
+  width: 281px;
+  text-align: justify;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+.testimonios-slider a {
+  color: white;
+  background-color: var(--azulmarino);
+  padding: 6px 25px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: table;
+}
+.firstplanconta {
+    width: 100%;
+    background-color: var(--botonrojo);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.firstplanconta h5 {
+    font-size: 3rem;
+}
+.firstplanconta span {
+    font-weight: 500;
+    font-size: 1rem;
+}

@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+      font-weight: bold;
+      color: var(--azulmarino);
+      font-size: 3.5rem;
+      margin: 20px 0;
+      line-height: 40px;
+}
+
+#sectinfo span, #sectservice span, #whyus span, #testi span, #formsec span, .salvavip p{
+  text-align: center;
+  display: block;
+  font-size: 1.4rem;
+  padding: 0px 24px;
+  color: var(--letrasgrises);
+  font-weight: 600;
+  margin-bottom: 17px;
+}
+.bigtextinfo p {
+    text-align: center;
+    margin: 6px 31px;
+    color: var(--letrazulgris);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+#sectinfo p:nth-child(3) {
+    color: var(--botonrojo);
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin: 25px 31px;
+    line-height: 42px;
+}
+
+.bigtextinfo a {
+    text-align: center;
+    display: block;
+}
+
+body {
+    width: 100vw;
+}
+
+section#sectinfo a {
+    text-align: center;
+    background-color: var(--azulmarino);
+    display: flex;
+    justify-content: center;
+    margin: 0px 44px;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 5px;
+    max-width: 330px;
+}
+
+section#sectinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}

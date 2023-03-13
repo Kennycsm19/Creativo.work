@@ -1,0 +1,113 @@
+@media (min-width: 640px){
+  header {
+      width: 100%;
+      min-width: 320px;
+      height: 75px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      background-color: white;
+      z-index: 1;
+  }
+  .groupheadtwo a {
+    background-color: var(--botonrojo);
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+}
+.groupheadtwo {
+    display: flex;
+    width: 265px;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider{
+  top: 75px;
+}
+main {
+    height: 60vh;
+    max-height: 600px;
+}
+.bigtextinfo {
+  padding: 0 22px;
+  font-size: 1.5rem;
+  max-width: 930px;
+}
+.bigtextinfo p {
+        font-size: 1.5rem;
+}
+#sectinfo p:nth-child(3) {
+    font-size: 3.5rem;
+}
+section#sectinfo a {
+    padding: 12px 18px;
+}
+#sectinfo span, #sectservice span, #whyus span, #testi span, #formsec span, .salvavip p {
+    padding: 0 40px;
+}
+section#beneficios {
+    width: 80%;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.bene, .reason {
+    width: 284px;
+}
+.reasongroup {
+    width: 80%;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-direction: row;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.tabletsposition {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 90%;
+    max-width: 1709px;
+    margin: 0 auto;
+}
+
+.profesional:nth-of-type(-n+4) {
+    border-bottom: 20px solid var(--botonrojo);
+    border: solid 2px var(--botonrojo);
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.secondcontaplan a.etpa {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
