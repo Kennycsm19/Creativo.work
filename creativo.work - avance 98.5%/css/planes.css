@@ -1,0 +1,163 @@
+section#planes {
+    margin-top: 15px;
+}
+h6 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--azulmarino);
+    text-align: center;
+    margin: 12px 0;
+}
+.precio {
+    text-align: center;
+    font-weight: 600;
+    color: var(--botonrojo);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin: 0 auto;
+    width: 140px;
+    border-bottom: 1px var(--botonrojo) solid;
+}
+
+.precio span {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.precio span:first-child {
+    font-size: 1.8rem;
+    align-self: flex-start;
+    margin-top: 8px;
+}
+
+span.gle {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--letrasgrises);
+    margin: 15px 0;
+}
+
+.benepro {
+    text-align: center;
+}
+
+.benepro p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-bottom: 0.5px solid #dbdbdb;
+  width: 274px;
+  margin: 0 auto;
+  padding: 9px 0;
+}
+.profesional a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--botonrojo);
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: table;
+}
+.profesional:nth-of-type(-n+4) {
+  border-bottom: 20px solid var(--botonrojo);
+}
+.secondcontaplan {
+    width: 100%;
+    background-color: var(--botonrojo);
+    padding: 30px 0;
+}
+.benepro span {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../icon/check.svg');
+    margin: 0 3px;
+}
+
+.benepro li {
+  font-size: 1.5rem;
+      font-weight: 500;
+      color: var(--letrazulgris);
+      border-bottom: 0.5px solid #dbdbdb;
+      text-align: center;
+      width: 274px;
+      margin: 0 auto;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.benepro strong {
+    border-bottom-width: 1px;
+    border-style: dotted;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 4px;
+}
+.secondcontaplan a.etpa {
+    margin: 0 25px;
+}
+.lupa, .nube, .msm, .msmdo, .pen, .car, .lock, .cards, .google, .fb, .burbu, .apple, .rectan, .bloc{
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1px;
+}
+.lupa{
+  background-image: url('../icon/lupa.svg');
+  margin-right: 1px;
+}
+.nube{
+  background-image: url('../icon/nube.svg');
+  }
+.msm{
+  background-image: url('../icon/sms2.svg');
+}
+.msmdo{
+  background-image: url('../icon/sms2.svg');
+}
+.pen{
+  background-image: url('../icon/pen.svg');
+}
+.car{
+  background-image: url('../icon/car.svg');
+}
+.lock{
+  background-image: url('../icon/lock.svg');
+}
+.cards{
+  background-image: url('../icon/cards.svg');
+}
+.google{
+  background-image: url('../icon/google.svg');
+}
+.fb{
+  background-image: url('../icon/fb.svg');
+}
+.burbu{
+  background-image: url('../icon/chat.svg');
+}
+.apple{
+  background-image:url('../icon/apple.svg');
+}
+.rectan{
+  background-image: url('../icon/rectan.svg');
+}
+.bloc{
+  background-image: url('../icon/bloc.svg');
+}

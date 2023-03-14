@@ -1,0 +1,110 @@
+.phone {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    background-image: url('../icon/phone.svg');
+    margin: 0 auto;
+}
+section#formsec {
+    margin-top: 20px;
+}
+
+form {
+    width: 85%;
+    background-color: #444444;
+    margin: 0 auto;
+    color: white;
+    padding: 20px 20px;
+}
+
+label {
+    display: none;
+}
+
+form p:first-child {
+    font-size: 2.2rem;
+    font-weight: 600;
+    width: 53%;
+}
+
+form p:last-child {
+    font-size: 3.2rem;
+}
+
+input {
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+form p:nth-of-type(2) {
+    font-size: 1.5rem;
+    margin: 17px 0;
+}
+textarea#mensaje {
+    width: 100%;
+    height: 170px;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    font-family: 'Poppins';
+    padding: 10px;
+}
+
+form button {
+    color: white;
+    background-color: var(--botonrojo);
+    border: 0;
+    padding: 10px 18px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+div#secformtwo {
+    width: 85%;
+    margin: 25px auto;
+    border: 0.1px solid var(--gris);
+    padding: 20px;
+}
+
+#secformtwo > p:first-child {
+    color: var(--botonrojo);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+#secformtwo > p:last-child {
+}
+
+.dialabs, .sab {
+    margin: 0 auto;
+    width: 122px;
+}
+
+.dialabs p:first-child, .sab p:first-child {
+    background-color: #ededed;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--letrazulgris);
+    border-radius: 4px;
+    padding: 5px 14px;
+    font-weight: 500;
+}
+
+.dialabs p:last-child, .sab p:last-child {
+    text-align: center;
+    font-size: 1.9rem;
+    color: var(--botonrojo);
+    padding: 5px 0;
+}
+
+.dialabs {
+    margin-bottom: 15px;
+}
+#secformtwo > p:nth-of-type(2) {
+    color: var(--letrazulgris);
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 14px 0;
+}

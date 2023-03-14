@@ -1,0 +1,34 @@
+#autoslide{
+  margin: 30px 0;
+}
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+.carousel p {
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.slides-container {
+  display: flex;
+  width: 400%;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(-25%);
+}
+
+.slide {
+  flex: 1 0 25%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.notasslide{
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../icon/notes.svg');
+}

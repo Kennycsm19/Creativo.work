@@ -1,0 +1,113 @@
+footer {
+    background-color: var(--azulmarino);
+}
+
+p.titlefo, .redes p, .questions p:first-child {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.aone, .atwo, .athree, .redes, .afour {
+    padding: 20px;
+padding-bottom: 0;
+}
+.enlacesfo ul {
+    margin: 3px 0;
+}
+.enlacesfo li {
+    list-style: none;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.enlacesfo a {
+    color: var(--letrazulgris);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-left: 10px;
+}
+
+.enlacesfo span {
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/271/271228.png);
+}
+a.fbfo {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3670/3670032.png);
+}
+
+.redes a {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+a.in {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/145/145807.png);
+}
+
+a.twitter {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3670/3670151.png);
+}
+.divlist {
+    display: flex;
+    width: 120px;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+.questions {
+    padding: 20px;
+}
+.lasta {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.lasta a:first-child {
+    color: var(--botonrojo);
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.lasta a:nth-child(2) {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.lasta a:last-child {
+    font-size: 1.3rem;
+    color: var(--letrazulgris);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a {}
+
+a.lastaall {
+    color: var(--letrazulgris);
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    border-top: solid 0.5px;
+}
